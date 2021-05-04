@@ -36,6 +36,6 @@ io.on('connection', function(socket) {
 /**
  * Listen on provided port, on all network interfaces.
  */
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 4004;
 
 server.listen(port);
